@@ -1,0 +1,9 @@
+{
+  "name": "quicklend-push-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sends Android push notifications (FCM) for QuickLend chat replies and loan updates",
+  "main": "push-server.js",
+  "scripts": { "start": "node push-server.js" },
+  "dependencies": { "firebase-admin": "^12.6.0" }
+}
